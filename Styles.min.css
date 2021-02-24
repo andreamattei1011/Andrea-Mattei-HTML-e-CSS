@@ -1,1 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box}.top-bar{background-color:grey}
+*{margin:0;padding:0;box-sizing:border-box}.top-bar{background-color:grey;display:flex}.logo img{justify-content:flex-start}
