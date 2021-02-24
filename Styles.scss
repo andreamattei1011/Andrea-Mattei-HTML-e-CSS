@@ -3,10 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .top-bar{
-  background-color: grey;
+  background-color: #262626;
   display: flex;
-}
-.logo img{
+  justify-content: space-between;
+  padding: 0px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 20px;
+
+  .logo img{
   justify-content: flex-start;
+  width: 50%;
+  }
+
+  .top-menu{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #990000;
+  text-decoration: none;
+  padding-right: 100px;
+
+    a{
+    text-decoration: none;
+    color: #990000
+    }
+  }
+}
+
+.page{
+  display: flex;
+  background-color: #8c8c8c;
+  width: auto;
+  height: 200px;
+
+    img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+  }
+    .content{
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+    }
 }
