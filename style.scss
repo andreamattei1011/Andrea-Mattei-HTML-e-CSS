@@ -1,0 +1,63 @@
+$color-1: #fff;
+$color-2:#e6ac00;
+$color-3:#666699;
+
+
+
+.navbar{
+  padding: .8rem;
+
+  &-nav li{
+    padding-right: 40px;
+  }
+
+  &-brand img{
+    width: 40%;
+  }
+}
+
+.nav-link{
+  font-size: 20px;
+}
+.carousel{
+  display: flex;
+  justify-content: center;
+
+  &-inner img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 559px){
+  .navbar-brand img{
+    width: 110%;
+  }
+  h1{
+    font-size: 20px;
+  }
+}
+
+.basketball{
+  color: $color-1;
+  width: 100%;
+  height: 100%;
+  }
+
+
+.programming{
+  color:$color-2;
+  width: 100%;
+  height: 100%;
+
+  a{
+    text-decoration: underline;
+    color: $color-2;
+  }
+}
+
+.languages{
+  color: #666699;
+  width: 100%;
+  height: 100%;
+}
