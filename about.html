@@ -5,18 +5,21 @@
 	<title>Andrea Mattei</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<!--script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!--script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"--></script>
 	<link href="style.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+	<!--link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css"-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
 
 	<!--navbar-->
+
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="test.html"><img src="C:\Users\Utent\Desktop\ATOM-PROJECT\Sito-Personale\images\LOGO.png"></a>
+			<a class="navbar-brand" href="index.html"><img src="images\LOGO.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
@@ -34,49 +37,81 @@
 				</div>
 			</nav>
 
-			<!--Immagini passioni-->
-			<div id="slides" class="carousel slide" data-ride="carousel">
-				<ul class="carousel-indicators">
-					<li data-target="#slides" data-slide-to="0" class="active"></li>
-					<li data-target="#slides" data-slide-to="1"></li>
-					<li data-target="#slides" data-slide-to="2"></li>
-					<li data-target="#slides" data-slide-to="3"></li>
-				</ul>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="images\basketball.jpg">
-						<div class="carousel-caption">
-							<h1 class="display-2 Basketball"><strong>Basketball<strong></h1>
-								<h4 class="Basketball">I think basketball is a perfect sport. Just like during your life, you
-									struggle to succeed if you are alone. </h4>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<img src="images\programming.jpg">
-								<div class="carousel-caption">
-									<h1 class="display-2 Programming"><strong>Programming</strong></h1>
-									<h4 class="Programming">Programming is a whole new world for me. Before starting my journey with
-										<a href="https://www.start2impact.it/" target="_blank">Start2Impact</a> I didn't know anything about it, but now,
-										after only 2 weeks, I'm already in love.</h4>
-									</div>
-								</div>
-								<div class="carousel-item">
-									<img src="images\languages.jpg">
+			<div class="page">
+				<!--Parte Introduttiva-->
+
+				<div class="media">
+					<img src="images/my-image.jpg" class="mr-3">
+					<div class="media-body">
+						<h1 class="mt-0">Who is Andrea Mattei?</h1>
+						<p>I am a normal 20 years old guy from Olevano Romano, a little town near Rome.
+							<br>
+							I graduated from a lingustic High School in 2019 and went to University to study the arabic language.
+							<br>
+							I then discovered that studying languages in University was a lot different than he expected, so
+							I decided to give up University to pursue another dream: becoming a programmer.
+							<br>
+							That's the reason why I started my journey with <strong><a href="https://www.start2impact.it/" target="_blank">Start2Impact</a></strong>
+							in 2021, just a few weeks ago, and today I'm here, creating my first website from scratch.
+							<br>
+							<br>
+							<br>
+							P.S.
+							<br>
+							He is an handsome guy too!</p>
+						</div>
+					</div>
+					<hr class="my-4">
+
+					<!--Le mie passioni-->
+					<div class="my-passions">
+						<h1>What are my passions?</h1>
+						<p>I actually got 4 main passions: basketball, programming, languages and videogames, and here's why:<br></p>
+						<div id="slides" class="carousel slide" data-ride="carousel">
+							<ul class="carousel-indicators">
+								<li data-target="#slides" data-slide-to="0" class="active"></li>
+								<li data-target="#slides" data-slide-to="1"></li>
+								<li data-target="#slides" data-slide-to="2"></li>
+								<li data-target="#slides" data-slide-to="3"></li>
+							</ul>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="images\basketball.jpg">
 									<div class="carousel-caption">
-										<h1 class="display-2 Languages"><strong>Languages</strong></h1>
-										<h4 class="Languages">Languages are one of the best skills to learn in your life.
-											They can help you a lot and they make you discover new cultures and
-											new people.</h4>
+										<h1 class="display-2 Basketball"><strong>Basketball</strong></h1>
+										<h4 class="Basketball">I think basketball is a perfect sport. Just like during your life, you
+											struggle to succeed if you are alone. </h4>
 										</div>
 									</div>
 									<div class="carousel-item">
-										<img src="images\videogames.jpg">
+										<img src="images\programming.jpg">
 										<div class="carousel-caption">
-											<h1 class="display-2 videogames"><strong>Videogames</strong></h1>
-											<h4 class="videogames">Videogames have been one of my first hobbies since i was young. In my opinion, they can
-												help you a lot to escape reality and to free your minf when you
-												are having a bad day.</h4>
+											<h1 class="display-2 Programming"><strong>Programming</strong></h1>
+											<h4 class="Programming">Programming is a whole new world for me. Before starting my journey with
+												<a href="https://www.start2impact.it/" target="_blank">Start2Impact</a> I didn't know anything about it, but now,
+												after only 2 weeks, I'm already in love.</h4>
 											</div>
 										</div>
+										<div class="carousel-item">
+											<img src="images\languages.jpg">
+											<div class="carousel-caption">
+												<h1 class="display-2 Languages"><strong>Languages</strong></h1>
+												<h4 class="Languages">Languages are one of the best skills to learn in your life.
+													They can help you a lot and they make you discover new cultures and
+													new people.</h4>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<img src="images\videogames.jpg">
+												<div class="carousel-caption">
+													<h1 class="display-2 videogames"><strong>Videogames</strong></h1>
+													<h4 class="videogames">Videogames have been one of my first hobbies since i was young. In my opinion, they can
+														help you a lot to escape reality and to free your minf when you
+														are having a bad day.</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr class="my-4">
+
 									</div>
-								</div>

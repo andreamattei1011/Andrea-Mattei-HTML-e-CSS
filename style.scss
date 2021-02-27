@@ -1,8 +1,4 @@
-$color-1: #fff;
-$color-2:#e6ac00;
-$color-3:#0066ff;
-
-
+@import "config.scss";
 
 .navbar{
   padding: .8rem;
@@ -28,6 +24,39 @@ $color-3:#0066ff;
     height: 100%;
   }
 }
+
+.page{
+  background-color: $color-6;
+  font-family: $font-1;
+}
+
+.media{
+
+  img{
+    width: 15%;
+    border: 2px solid $color-4 !important;
+  }
+  h1{
+    font-size: 50px;
+  }
+  p{
+    font-size: 20px;
+  }
+  a{
+    color: $color-5;
+  }
+}
+
+.my-passions{
+
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
 
 @media (max-width: 559px){
   .navbar-brand img{
