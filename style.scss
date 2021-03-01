@@ -1,171 +1,187 @@
 @import "config.scss";
 
-.navbar{
-  padding: 0px;
+.navbar {
+  padding: 0;
 
-  &-nav li{
+  &-nav li {
     padding-right: 40px;
   }
 
-  &-brand img{
+  &-brand img {
     width: 100px;
   }
 }
 
-.nav-link{
+.nav-link {
   font-size: 20px;
 }
 
-.home-page{
+.home-page {
   background-color: $color-6;
   font-family: $font-1;
   padding: 30px;
 
-  h1{
+  h1 {
     font-size: 50px;
   }
-  p{
+
+  p {
     font-size: 20px;
   }
-  a{
+
+  a {
     color: $color-5;
     text-decoration: underline;
   }
-  h3{
+
+  h3 {
     font-size: 35px;
   }
 
-  .media{
+  .media {
     border: 1px solid $color-4;
-    img{
+
+    img {
       width: 150px;
       height: 120px;
     }
-    h5{
+
+    h5 {
       font-size: 30px;
     }
-    p{
+
+    p {
       font-size: 20px;
     }
   }
 }
 
-
-
-
-.carousel{
+.carousel {
   display: flex;
   justify-content: center;
 
-  &-inner img{
+  &-inner img {
     width: 100%;
     height: 100%;
   }
 }
 
-.about-section{
+.about-section {
   background-color: $color-6;
   font-family: $font-1;
   padding: 30px;
 
-  .media{
-
-    img{
+  .media {
+    img {
       width: 15%;
       border: 2px solid $color-4 !important;
     }
-    h1{
+
+    h1 {
       font-size: 50px;
     }
-    p{
+
+    p {
       font-size: 20px;
     }
-    a{
+
+    a {
       color: $color-5;
     }
   }
 }
 
-.my-passions{
-
-  h1{
+.my-passions {
+  h1 {
     font-size: 40px;
   }
-  p{
+
+  p {
     font-size: 20px;
   }
 }
 
-.basketball{
+.basketball {
   color: $color-1;
   width: 100%;
   height: 100%;
   text-shadow: #e0e0e0 1px 1px 0;
 }
 
-
-.programming{
-  color:$color-2;
+.programming {
+  color: $color-2;
   width: 100%;
   height: 100%;
   text-shadow: #e0e0e0 1px 1px 0;
 
-  a{
+  a {
     text-decoration: underline;
     color: $color-2;
     text-shadow: #e0e0e0 1px 1px 0;
   }
 }
 
-.languages{
+.languages {
   color: $color-3;
   width: 100%;
   height: 100%;
   text-shadow: #e0e0e0 1px 1px 0;
 }
 
-.contacts{
+.contacts {
   font-family: $font-1;
   background-color: $color-6;
-  h1{
+
+  h1 {
     font-size: 50px;
     text-align: center;
   }
-  p{
+
+  p {
     font-size: 20px;
   }
-  .social a{
+
+  .social a {
     font-size: 100px;
     padding-left: 100px;
     padding-right: 100px;
   }
-  .fa-facebook{
+
+  .fa-facebook {
     color: #3b5998;
   }
-  .fa-twitter{
+
+  .fa-twitter {
     color: #00aced;
   }
-  .fa-instagram{
+
+  .fa-instagram {
     color: #517fa4;
   }
-  .fa-facebook:hover{
+
+  .fa-facebook:hover {
     color: lighten(#3b5998, 20%);
   }
-  .fa-instagram:hover{
+
+  .fa-instagram:hover {
     color: lighten(#517fa4, 20%);
   }
-  .fa-twitter:hover{
+
+  .fa-twitter:hover {
     color: lighten(#00aced, 20%);
   }
-  .contact-form{
+
+  .contact-form {
     font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .form-row{
+
+    .form-row {
       width: 200px;
       padding: 20px;
-      button{
+
+      button {
         display: inline-block;
         margin: 0;
         padding: 0.75rem 1rem;
@@ -177,44 +193,48 @@
         font-weight: 700;
         cursor: pointer;
       }
-      button:hover{
+
+      button:hover {
         color: lighten(#aaa, 20%);
       }
-      textarea{
+
+      textarea {
         height: 400px;
       }
     }
   }
 }
 
-
-
-.card{
+.card {
   font-family: $font-1;
   padding: 30px;
   background-color: $color-6;
-  p{
+
+  p {
     font-size: 17px;
   }
-  h5{
+
+  h5 {
     font-size: 20px;
   }
-  a{
+
+  a {
     text-decoration: none;
     color: #fff;
   }
 }
-
-@media (max-width: 559px){
-  .navbar-brand img{
+@media (max-width: 559px) {
+  .navbar-brand img {
     width: 120%;
   }
-  h1{
+
+  h1 {
     font-size: 20px;
   }
 
-  .home-page{
-    a,p{
+  .home-page {
+    a,
+    p {
       font-size: 20px;
     }
   }
