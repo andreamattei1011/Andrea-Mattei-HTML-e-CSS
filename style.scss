@@ -136,7 +136,8 @@
   }
   .social a{
     font-size: 100px;
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .fa-facebook{
     color: #3b5998;
@@ -178,6 +179,9 @@
       }
       button:hover{
         color: lighten(#aaa, 20%);
+      }
+      textarea{
+        height: 400px;
       }
     }
   }
