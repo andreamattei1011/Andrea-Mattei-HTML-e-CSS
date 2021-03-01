@@ -8,7 +8,8 @@
   }
 
   &-brand img {
-    width: 100px;
+    width: 160px;
+    padding-left: 60px;
   }
 }
 
@@ -19,7 +20,6 @@
 .home-page {
   background-color: $color-6;
   font-family: $font-1;
-  padding: 30px;
 
   h1 {
     font-size: 50px;
@@ -36,6 +36,10 @@
 
   h3 {
     font-size: 35px;
+  }
+
+  h5 {
+    font-size: 30px;
   }
 
   .media {
@@ -187,7 +191,7 @@
         padding: 0.75rem 1rem;
         border: 0;
         border-radius: 6px;
-        background-color: #aaa;
+        background-color: $color-4;
         color: #fff;
         text-decoration: none;
         font-weight: 700;

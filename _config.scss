@@ -3,11 +3,86 @@ $color-2: #e6ac00; //ocra
 $color-3: #0066ff; //celeste
 $color-4: #009900; //verde
 $color-5: #000; //nero
-$color-6: #e6e6e6; //grigio
-$font-1: 'Playfair Display', serif; //Playfair
+$color-6: #c2d6d6; //grigio
+$font-1: 'Open Sans', sans-serif; //Playfair
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.background {
+  background-image: url("images/background1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &-inner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  &-inner-mini {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  &-inner-top {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.introduzione {
+  padding: 0 60px;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.projects {
+  h3,
+  p {
+    padding: 10px 60px;
+  }
+}
+
+.col-md-12 {
+  padding: 10px;
+  border: 10px;
+
+  img {
+    width: 20%;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+}
+
+.container {
+  background-color: $color-6;
+}
+
+.row {
+  display: inline-block;
+  justify-content: flex-start;
+}
+
+.btn {
+  background-color: $color-4;
+  border: 1px solid $color-4;
+}
+
+.btn:hover {
+  background-color: lighten($color-4, 20%);
+}
+
+.container {
+  display: flex;
+  width: 100%;
 }
