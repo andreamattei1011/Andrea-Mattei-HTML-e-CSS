@@ -117,10 +117,13 @@
 .btn {
   background-color: $color-4;
   border: 1px solid $color-4;
+  color: #fff;
 }
 
 .btn:hover {
-  background-color: lighten($color-4, 20%);
+  background-color: #fff;
+  color: $color-4;
+  border: 1px solid $color-4 !important;
 }
 
 .container {
