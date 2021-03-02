@@ -126,6 +126,13 @@
   border: 1px solid $color-4 !important;
 }
 
+.btn:active {
+  background-color: #fff !important;
+  color: darken($color-4, 20%) !important;
+  border: 1px solid $color-4 !important;
+  box-shadow: 1px 1px 1px 1px darken($color-4,20%)!important;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -183,19 +190,19 @@
   color: $color-1;
   width: 100%;
   height: 100%;
-  text-shadow: #e0e0e0 1px 1px 0;
+  text-shadow: #000000 1px 1px 1px;
 }
 
 .programming {
   color: $color-2;
   width: 100%;
   height: 100%;
-  text-shadow: #e0e0e0 1px 1px 0;
+  text-shadow: #000000 1px 1px 1px;
 
   a {
     text-decoration: underline;
     color: $color-2;
-    text-shadow: #e0e0e0 1px 1px 0;
+    text-shadow: #000000 1px 1px 1px;
   }
 }
 
@@ -203,7 +210,14 @@
   color: $color-3;
   width: 100%;
   height: 100%;
-  text-shadow: #e0e0e0 1px 1px 0;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.videogames {
+  color: $color-1;
+  width: 100%;
+  height: 100%;
+  text-shadow: #000000 1px 1px 1px;
 }
 
 .contacts {
@@ -353,6 +367,19 @@
     padding-left: 7px !important;
   }
 
+  .display-2 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+  .languages {
+    color: $color-2;
+    text-shadow: #000000 1px 1px 1px;
+  }
+
   .contacts,
   .social-network {
     h1 {
@@ -370,13 +397,5 @@
 
   h1 {
     font-size: 20px;
-  }
-
-  .display-2 {
-    font-size: 25px;
-  }
-
-  h4 {
-    font-size: 15px;
   }
 }
