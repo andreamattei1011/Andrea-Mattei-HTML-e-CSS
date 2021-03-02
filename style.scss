@@ -2,6 +2,8 @@
 
 .navbar {
   padding: 0;
+  border-bottom: 7px solid rgba(214, 245, 216, 0.7) !important;
+  background-color: $color-6 !important;
 
   &-nav li {
     padding-right: 40px;
@@ -41,23 +43,89 @@
   h5 {
     font-size: 30px;
   }
+}
 
-  .media {
-    border: 1px solid $color-4;
+.background {
+  background-image: url("images/background1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-    img {
-      width: 150px;
-      height: 120px;
-    }
-
-    h5 {
-      font-size: 30px;
-    }
-
-    p {
-      font-size: 20px;
-    }
+  &-inner {
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
+
+  &-inner-mini {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  &-inner-top {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+.introduzione {
+  padding: 10px 60px;
+  background-clip: content-box;
+  border: 7px solid rgba(214, 245, 216, 0.7) !important;
+}
+
+.projects {
+  h3,
+  p {
+    padding: 10px 60px;
+  }
+}
+
+.bordo {
+  border: 7px solid rgba(214, 245, 216, 0.7) !important;
+  padding: 10px 0;
+}
+
+.col-md-12 {
+  padding: 10px;
+
+  img {
+    width: 20%;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+}
+
+.container {
+  background-color: $color-6;
+  padding-left: 60px;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.row {
+  display: inline-block;
+  justify-content: flex-start;
+}
+
+.btn {
+  background-color: $color-4;
+  border: 1px solid $color-4;
+}
+
+.btn:hover {
+  background-color: lighten($color-4, 20%);
+}
+
+.container {
+  display: flex;
+  width: 100%;
 }
 
 .carousel {
@@ -73,9 +141,10 @@
 .about-section {
   background-color: $color-6;
   font-family: $font-1;
-  padding: 30px;
 
   .media {
+    padding: 0 60px;
+
     img {
       width: 15%;
       border: 2px solid $color-4 !important;
@@ -96,6 +165,8 @@
 }
 
 .my-passions {
+  padding: 0 60px;
+
   h1 {
     font-size: 40px;
   }
@@ -132,86 +203,9 @@
   text-shadow: #e0e0e0 1px 1px 0;
 }
 
-.contacts {
-  font-family: $font-1;
-  background-color: $color-6;
-
-  h1 {
-    font-size: 50px;
-    text-align: center;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .social a {
-    font-size: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .fa-facebook {
-    color: #3b5998;
-  }
-
-  .fa-twitter {
-    color: #00aced;
-  }
-
-  .fa-instagram {
-    color: #517fa4;
-  }
-
-  .fa-facebook:hover {
-    color: lighten(#3b5998, 20%);
-  }
-
-  .fa-instagram:hover {
-    color: lighten(#517fa4, 20%);
-  }
-
-  .fa-twitter:hover {
-    color: lighten(#00aced, 20%);
-  }
-
-  .contact-form {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .form-row {
-      width: 200px;
-      padding: 20px;
-
-      button {
-        display: inline-block;
-        margin: 0;
-        padding: 0.75rem 1rem;
-        border: 0;
-        border-radius: 6px;
-        background-color: $color-4;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 700;
-        cursor: pointer;
-      }
-
-      button:hover {
-        color: lighten(#aaa, 20%);
-      }
-
-      textarea {
-        height: 400px;
-      }
-    }
-  }
-}
-
 .card {
   font-family: $font-1;
-  padding: 30px;
+  padding: 0;
   background-color: $color-6;
 
   p {

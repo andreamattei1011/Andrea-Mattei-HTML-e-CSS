@@ -3,86 +3,70 @@ $color-2: #e6ac00; //ocra
 $color-3: #0066ff; //celeste
 $color-4: #009900; //verde
 $color-5: #000; //nero
-$color-6: #c2d6d6; //grigio
+$color-6: #eefbef; //verde testo
 $font-1: 'Open Sans', sans-serif; //Playfair
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.background {
-  background-image: url("images/background1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  &-inner {
-    padding-top: 150px;
-    padding-bottom: 150px;
-  }
-
-  &-inner-mini {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  &-inner-top {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
-.introduzione {
-  padding: 0 60px;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.projects {
-  h3,
-  p {
-    padding: 10px 60px;
-  }
-}
-
-.col-md-12 {
-  padding: 10px;
-  border: 10px;
-
-  img {
-    width: 20%;
-  }
-
-  p {
-    font-size: 15px;
-    padding: 0;
-  }
-
-  h5 {
-    font-size: 25px;
-  }
-}
-
-.container {
+.contacts {
+  font-family: $font-1;
+  padding: 10px 60px;
   background-color: $color-6;
+  border: 7px solid rgba(214, 245, 216, 0.7);
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
-.row {
-  display: inline-block;
-  justify-content: flex-start;
+.contact-form {
+  font-family: $font-1;
+  padding: 10px 60px;
+  font-size: 17px;
+  background-color: $color-6;
+  border: 7px solid rgba(214, 245, 216, 0.7);
 }
 
-.btn {
-  background-color: $color-4;
-  border: 1px solid $color-4;
+.social-network {
+  background-color: $color-6;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
-.btn:hover {
-  background-color: lighten($color-4, 20%);
+.social a {
+  font-size: 80px;
+  padding: 40px;
 }
 
-.container {
-  display: flex;
-  width: 100%;
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-facebook:hover {
+  color: lighten(#3b5998, 20%);
+}
+
+.fa-twitter:hover {
+  color: lighten(#00aced, 20%);
+}
+
+.fa-instagram:hover {
+  color: lighten(#517fa4, 20%);
 }
