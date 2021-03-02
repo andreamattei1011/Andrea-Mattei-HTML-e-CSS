@@ -1,9 +1,5 @@
 @import "config.scss";
 
-hr {
-  background-color: $color-6;
-}
-
 .navbar {
   padding: 0;
   border-bottom: 7px solid rgba(214, 245, 216, 0.7) !important;
@@ -142,11 +138,6 @@ hr {
   color: darken($color-4, 20%) !important;
   border: 1px solid $color-4 !important;
   box-shadow: 1px 1px 1px 1px darken($color-4,20%)!important;
-}
-
-.container {
-  display: flex;
-  width: 100%;
 }
 
 .carousel {
